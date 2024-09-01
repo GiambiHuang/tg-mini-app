@@ -50,7 +50,10 @@ System.register([], function (_export, _context) {
                 }
               }
             }).then(function () {
-              return cc.game.run();
+              return cc.game.run(() => {
+                const barBg = document.getElementById('preview');
+                barBg.style.display = 'none';
+              });
             });
           }
         }]);
