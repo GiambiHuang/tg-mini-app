@@ -1,6 +1,8 @@
 System.register([], function (_export, _context) {
   "use strict";
 
+  var isLoad = false;
+  var isInit = false;
   var cc, Application;
   function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
   function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -16,6 +18,7 @@ System.register([], function (_export, _context) {
           _classCallCheck(this, Application);
           this.settingsPath = 'src/settings.json';
           this.showFPS = false;
+          this.setLoadingDisplay();
         }
         _createClass(Application, [{
           key: "init",
@@ -51,10 +54,35 @@ System.register([], function (_export, _context) {
               }
             }).then(function () {
               return cc.game.run(() => {
-                const barBg = document.getElementById('preview');
-                barBg.style.display = 'none';
+                isInit = true;
+                if (isLoad) {
+                  const barBg = document.getElementById('preview');
+                  barBg.style.display = 'none';
+                }
               });
             });
+          }
+        }, {
+          key: "setLoadingDisplay",
+          value: async function setLoadingDisplay () {
+            // const duration = 2000;
+            let currentPercent = 0;
+            const waitToLoading = (percent, timeout) => new Promise((resolve) => {
+              setTimeout(() => {
+                currentPercent += percent;
+                document.querySelector('#loading-percentage').innerHTML = `${currentPercent}%`
+                document.querySelector('#loading-bar').style.width = `${currentPercent}%`;
+                resolve();
+              }, timeout)
+            });
+            await waitToLoading(20, 500);
+            await waitToLoading(55, 1500);
+            await waitToLoading(25, 1000);
+            isLoad = true;
+            if (isInit) {
+              const barBg = document.getElementById('preview');
+              barBg.style.display = 'none';
+            }
           }
         }]);
         return Application;
