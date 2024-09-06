@@ -45,7 +45,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css"/>
-
+  <script src="https://unpkg.com/@tonconnect/sdk@latest/dist/tonconnect-sdk.min.js"></script>
+  <script src="https://telegram.org/js/telegram-web-app.js" charset="utf-8"></script>
+  <!-- lucky draw master sdk -->
+  <!-- Typescript types https://cdn.defo.xyz/twa/lucky-twa-sdk.d.ts -->
+  <script src="https://cdn.defo.xyz/twa/lucky-twa-sdk.js"></script>
+  <script type="text/javascript">
+    window.luckyTwaSdk.config({
+      token: 'ozACqnsKco'
+    })
+    window.luckyTwaSdk.event('OpenMiniApp')
+    // get original startapp param
+    // const startapp = window.luckyTwaSdk.startapp()
+    window.Telegram.WebApp.expand()
+  </script>
 </head>
 <body>
   <div id="GameDiv" cc_exact_fit_screen="true">
@@ -83,11 +96,6 @@
       </div>
     </div>
   </div>
-  <script src="https://telegram.org/js/telegram-web-app.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    window.Telegram.WebApp.expand()
-  </script>
-  
 
 <!-- Polyfills bundle. -->
 
