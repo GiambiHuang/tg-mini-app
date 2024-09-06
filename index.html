@@ -57,7 +57,11 @@
     window.luckyTwaSdk.event('OpenMiniApp')
     // get original startapp param
     // const startapp = window.luckyTwaSdk.startapp()
-    window.Telegram.WebApp.expand()
+    window.Telegram.WebApp.expand();
+
+    const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
+      manifestUrl: 'https://tg-mini-app-eight.vercel.app/public/tonconnect-manifest.json',
+    });
   </script>
 </head>
 <body>
