@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>AssassinsJump</title>
+  <title>DogsJump</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png">
@@ -66,9 +66,9 @@
       <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
     </div>
   </div>
-  <div id="preview" style="overflow: hidden; display: flex; justify-content: center; position: fixed; top: 0; height: 100vh; width: 100vw; background: #127BDA;">
+  <div id="preview" style="display: flex; justify-content: center; position: fixed; top: 0; height: 100vh; width: 100vw; background: #000000;">
     <div style="position: relative;">
-      <img src="./preview_bg.png" style="height: auto; width: 100vw; margin-top: 10vh;"></img>
+      <img src="./preview_bg.png" style="height: 100%; width: auto;"></img>
       <div style="position: absolute; top:0; left: 0; right: 0;">
         <img src="./mask_top.png" style="width: 100%; height: auto;"></img>
       </div>
@@ -90,8 +90,9 @@
         </div>
         <img src="./mask_bottom.png" style="width: 100%; height: auto;"></img>
       </div>
-      <div style="position: absolute; top: 0; left: 0; right: 0; z-index: 5; display: flex; flex-direction: column; justify-content: center; align-content: center;">
+      <div style="background: url(./dogs_bg.png) no-repeat top; position: absolute; top: 0; left: 0; right: 0; z-index: 5; display: flex; flex-direction: column; justify-content: center; align-content: center;">
         <img src="./logo.png" style="width: 90%; height: auto; margin: 2.5vh auto 0;"></img>
+        <img src="./dogs_image.png" style="width: 65%; height: auto; margin: auto;"></img>
       </div>
     </div>
   </div>
