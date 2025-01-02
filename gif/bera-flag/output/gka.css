@@ -1,0 +1,117 @@
+.animation {
+    width: 251px;
+    height: 352px;
+    background-image: url("./img/sprites.png");
+    background-repeat: no-repeat;
+    animation-name: keyframes-source;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: steps(1);
+}
+
+@keyframes keyframes-source {
+    0% {
+        width: 251px;
+        height: 352px;
+        background-image: url("./img/sprites.png");
+    }
+
+    4.00% {
+        background-position: -251px 0px;
+    }
+
+    8.00% {
+        background-position: -502px 0px;
+    }
+
+    12.00% {
+        background-position: 0px -352px;
+    }
+
+    16.00% {
+        background-position: -251px -352px;
+    }
+
+    20.00% {
+        background-position: -502px -352px;
+    }
+
+    24.00% {
+        background-position: -753px 0px;
+    }
+
+    28.00% {
+        background-position: -753px -352px;
+    }
+
+    32.00% {
+        background-position: -1004px 0px;
+    }
+
+    36.00% {
+        background-position: -1004px -352px;
+    }
+
+    40.00% {
+        background-position: 0px -704px;
+    }
+
+    44.00% {
+        background-position: -251px -704px;
+    }
+
+    48.00% {
+        background-position: -502px -704px;
+    }
+
+    52.00% {
+        background-position: -753px -704px;
+    }
+
+    56.00% {
+        background-position: -1004px -704px;
+    }
+
+    60.00% {
+        background-position: -1255px 0px;
+    }
+
+    64.00% {
+        background-position: -1255px -352px;
+    }
+
+    68.00% {
+        background-position: -1255px -704px;
+    }
+
+    72.00% {
+        background-position: 0px -1056px;
+    }
+
+    76.00% {
+        background-position: -251px -1056px;
+    }
+
+    80.00% {
+        background-position: -502px -1056px;
+    }
+
+    84.00% {
+        background-position: -753px -1056px;
+    }
+
+    88.00% {
+        background-position: -1004px -1056px;
+    }
+
+    92.00% {
+        background-position: -1255px -1056px;
+    }
+
+    96.00%,
+    100% {
+        background-position: -1506px 0px;
+    }
+}
