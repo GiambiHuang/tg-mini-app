@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c008fdda.css",
-    "main.js": "/static/js/main.1790d0a9.js",
+    "main.js": "/static/js/main.2126184a.js",
     "static/js/111.a03db448.chunk.js": "/static/js/111.a03db448.chunk.js",
     "static/js/13.6fa01cbf.chunk.js": "/static/js/13.6fa01cbf.chunk.js",
     "static/js/934.78f494ef.chunk.js": "/static/js/934.78f494ef.chunk.js",
@@ -36,8 +36,10 @@
     "static/js/157.8f46cd80.chunk.js": "/static/js/157.8f46cd80.chunk.js",
     "static/js/465.92f1fc34.chunk.js": "/static/js/465.92f1fc34.chunk.js",
     "static/js/889.986e471d.chunk.js": "/static/js/889.986e471d.chunk.js",
-    "static/js/759.d2cda429.chunk.js": "/static/js/759.d2cda429.chunk.js",
+    "static/js/911.48869867.chunk.js": "/static/js/911.48869867.chunk.js",
     "static/js/513.38e7a2da.chunk.js": "/static/js/513.38e7a2da.chunk.js",
+    "static/js/164.2ae8786f.chunk.js": "/static/js/164.2ae8786f.chunk.js",
+    "static/js/599.5797b9af.chunk.js": "/static/js/599.5797b9af.chunk.js",
     "static/js/393.3bc4c1ca.chunk.js": "/static/js/393.3bc4c1ca.chunk.js",
     "static/js/114.fecd89e9.chunk.js": "/static/js/114.fecd89e9.chunk.js",
     "static/js/353.061e26d7.chunk.js": "/static/js/353.061e26d7.chunk.js",
@@ -46,6 +48,7 @@
     "static/js/415.752fae2a.chunk.js": "/static/js/415.752fae2a.chunk.js",
     "static/js/397.078e6b84.chunk.js": "/static/js/397.078e6b84.chunk.js",
     "static/js/979.f305894f.chunk.js": "/static/js/979.f305894f.chunk.js",
+    "static/js/629.8e701e14.chunk.js": "/static/js/629.8e701e14.chunk.js",
     "packages/ethers.esm.js": "/packages/ethers-5.7.2",
     "packages/react-dom-server-legacy.browser.development.js": "/packages/react-dom-18.2.0",
     "static/media/hint.png": "/static/media/hint.3922cf029baaa145e75d.png",
@@ -64,6 +67,7 @@
     "static/media/sprites-tiles-v5.png": "/static/media/sprites-tiles-v5.7cda6c14bb34c97fa0ad.png",
     "static/media/gold.svg": "/static/media/gold.240e5f23eabad1e164eb207c82be8177.svg",
     "static/media/sprites-tiles-v2.png": "/static/media/sprites-tiles-v2.1470ba135b33eb0e0049.png",
+    "static/media/cloud1.webp": "/static/media/cloud1.e347c6c4a9133073b74f.webp",
     "static/media/counter.svg": "/static/media/counter.07bbd129cdd06dec1627a7a094575bf3.svg",
     "static/media/points-10.webp": "/static/media/points-10.bf8681d04ac69488063f.webp",
     "static/media/points-20.webp": "/static/media/points-20.4741776b016dc3b489f2.webp",
@@ -76,6 +80,7 @@
     "static/media/silver.svg": "/static/media/silver.f6b373fed9002c2b6e79e08f4b136614.svg",
     "static/media/power.svg": "/static/media/power.7b8ae3920f3e4a4560bf6bd6b2e67437.svg",
     "static/media/copper.svg": "/static/media/copper.8353ff72236a83be0dd5a37343d45439.svg",
+    "static/media/cloud2.webp": "/static/media/cloud2.4ad5abcab663f9a0efe8.webp",
     "static/media/season.svg": "/static/media/season.99920ac359c669d00cdbffc49c00c00e.svg",
     "static/media/gp.png": "/static/media/gp.9d9de215e1e7fb113189.png",
     "static/media/shop-hero-box-v2.webp": "/static/media/shop-hero-box-v2.55ec7c2ee9e042592be8.webp",
@@ -83,10 +88,9 @@
     "static/media/game.png": "/static/media/game.9e3ae03a23983dcae610.png",
     "static/media/notification.png": "/static/media/notification.ed33e601704d46a8a192.png",
     "static/media/random-card.svg": "/static/media/random-card.76e9922465636a261b7999ab82a89a3f.svg",
-    "static/media/choose-v2.svg": "/static/media/choose-v2.ffe2e91c71c27c134ce3c1e26fa3b04b.svg",
     "index.html": "/index.html",
+    "static/media/choose-v2.svg": "/static/media/choose-v2.ffe2e91c71c27c134ce3c1e26fa3b04b.svg",
     "static/media/setting.png": "/static/media/setting.4804d5f2295faa3fa746.png",
-    "static/media/task.png": "/static/media/task.3e47c49ac65ca558c1d9.png",
     "static/media/user-ranking.svg": "/static/media/user-ranking.8cf8940b306bfdf4eaf7a688fa0bfc54.svg",
     "static/media/victory-bg.png": "/static/media/victory-bg.f27393593949c5a64a2c.png",
     "static/media/team.png": "/static/media/team.1b683cbb406f695a77b3.png",
@@ -143,6 +147,6 @@
   },
   "entrypoints": [
     "static/css/main.c008fdda.css",
-    "static/js/main.1790d0a9.js"
+    "static/js/main.2126184a.js"
   ]
 }
