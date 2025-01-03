@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c008fdda.css",
-    "main.js": "/static/js/main.fb36bd3c.js",
+    "main.js": "/static/js/main.14106d4c.js",
     "static/js/111.a03db448.chunk.js": "/static/js/111.a03db448.chunk.js",
     "static/js/13.6fa01cbf.chunk.js": "/static/js/13.6fa01cbf.chunk.js",
     "static/js/934.78f494ef.chunk.js": "/static/js/934.78f494ef.chunk.js",
@@ -36,8 +36,12 @@
     "static/js/157.8f46cd80.chunk.js": "/static/js/157.8f46cd80.chunk.js",
     "static/js/465.92f1fc34.chunk.js": "/static/js/465.92f1fc34.chunk.js",
     "static/js/889.986e471d.chunk.js": "/static/js/889.986e471d.chunk.js",
-    "static/js/759.cd2c31c4.chunk.js": "/static/js/759.cd2c31c4.chunk.js",
+    "static/js/911.a90141f6.chunk.js": "/static/js/911.a90141f6.chunk.js",
     "static/js/513.38e7a2da.chunk.js": "/static/js/513.38e7a2da.chunk.js",
+    "static/js/359.9960b378.chunk.js": "/static/js/359.9960b378.chunk.js",
+    "static/js/599.5797b9af.chunk.js": "/static/js/599.5797b9af.chunk.js",
+    "static/js/144.692c6819.chunk.js": "/static/js/144.692c6819.chunk.js",
+    "static/js/937.eed0bfbe.chunk.js": "/static/js/937.eed0bfbe.chunk.js",
     "static/js/393.3bc4c1ca.chunk.js": "/static/js/393.3bc4c1ca.chunk.js",
     "static/js/114.fecd89e9.chunk.js": "/static/js/114.fecd89e9.chunk.js",
     "static/js/353.061e26d7.chunk.js": "/static/js/353.061e26d7.chunk.js",
@@ -46,6 +50,7 @@
     "static/js/415.752fae2a.chunk.js": "/static/js/415.752fae2a.chunk.js",
     "static/js/397.078e6b84.chunk.js": "/static/js/397.078e6b84.chunk.js",
     "static/js/979.f305894f.chunk.js": "/static/js/979.f305894f.chunk.js",
+    "static/js/629.8e701e14.chunk.js": "/static/js/629.8e701e14.chunk.js",
     "packages/ethers.esm.js": "/packages/ethers-5.7.2",
     "packages/react-dom-server-legacy.browser.development.js": "/packages/react-dom-18.2.0",
     "static/media/hint.png": "/static/media/hint.3922cf029baaa145e75d.png",
@@ -86,6 +91,7 @@
     "static/media/choose-v2.svg": "/static/media/choose-v2.ffe2e91c71c27c134ce3c1e26fa3b04b.svg",
     "index.html": "/index.html",
     "static/media/setting.png": "/static/media/setting.4804d5f2295faa3fa746.png",
+    "static/media/task.png": "/static/media/task.3e47c49ac65ca558c1d9.png",
     "static/media/user-ranking.svg": "/static/media/user-ranking.8cf8940b306bfdf4eaf7a688fa0bfc54.svg",
     "static/media/victory-bg.png": "/static/media/victory-bg.f27393593949c5a64a2c.png",
     "static/media/team.png": "/static/media/team.1b683cbb406f695a77b3.png",
@@ -142,6 +148,6 @@
   },
   "entrypoints": [
     "static/css/main.c008fdda.css",
-    "static/js/main.fb36bd3c.js"
+    "static/js/main.14106d4c.js"
   ]
 }
